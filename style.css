@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deka', sans-serif;
+}
+body {
+    background: hsl(0, 0%, 95%);
+}
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.flexbox {
+    display: flex;
+    width: 100%;
+}
+.flexbox .sedan {
+    background: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.flexbox .suv {
+    background: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 50%;
+}
+.flexbox .luxury {
+    background: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 50%;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+    font-weight: 700;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 15px;
+    border-radius: 60px;
+    border-color: transparent;
+    color: hsla(40, 96%, 44%, 0.866);
+    font-size: 12px;
+    margin-top: 20px;
+}
+.one {
+    color: hsla(180, 100%, 27%, 0.777);
+}
+.two {
+    color: hsla(184, 100%, 22%, 0.777);
+}
